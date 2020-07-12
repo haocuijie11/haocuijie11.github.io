@@ -1,0 +1,110 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.main{
+	width:800px;
+	height:800px;
+	/* border:1px #f00 solid; */
+	margin:0px auto;
+	position: relative;
+}
+/**width 368  height 376**/
+.playera,.playerb,.playerc,.playerd{
+	width:92px;
+	height:94px;
+	/* background:#f00; */
+	overflow: hidden;
+	position: absolute
+}
+
+.playera{
+	top:0px;
+	left:0px;
+	animation: playeramove 20s linear infinite;
+}
+
+.playerb{
+	top:0px;
+	right:0px;
+	animation: playerbmove 20s linear infinite;
+}
+.playerb div{
+	margin-top:-94px;
+}
+.playerc{
+	left:0px;
+	bottom:0px;
+	animation: playercmove 20s linear infinite;
+}
+
+.playerc div{
+	margin-top:-188px;
+}
+.playerd{
+	right: 0px;
+	bottom:0px;
+	animation: playerdmove 20s linear infinite;
+}
+
+.playerd div{
+	margin-top:-282px;
+}
+.playera div,.playerb div,.playerc div,.playerd div{
+	animation:playerani 1s steps(4) infinite;
+}
+
+/** 角色动画**/
+@keyframes playerani{
+	from{
+		margin-left:0px;
+	}
+	to{
+		margin-left:-368px;
+	}
+}
+
+@keyframes playeramove{
+	from{
+		top:0px;
+		left:0px;
+	}
+	to{
+		top:100%;
+		left:100%;
+	}
+}
+
+@keyframes playerbmove{
+	from{
+		top:0px;
+		right:0px;
+	}
+	to{
+		top:100%;
+		right:100%;
+	}
+}
+
+@keyframes playercmove{
+	from{
+		left:0px;
+		bottom:0px;
+	}
+	to{
+		left:100%;
+		bottom:100%;
+	}
+}
+
+@keyframes playerdmove{
+	from{
+		right: 0px;
+		bottom:0px;
+	}
+	to{
+		right:100%;
+		bottom:100%;
+	}
+}

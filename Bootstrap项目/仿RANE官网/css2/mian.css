@@ -1,0 +1,120 @@
+.box {
+  overflow: hidden;
+}
+.box .container .row .jumbotron {
+  background-color: #2D2D2D;
+  text-align: center;
+  margin-top: 200px;
+}
+.box .container .row h1 {
+  color: white;
+  display: none;
+}
+.box .container .row p {
+  color: white;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  display: none;
+}
+.box .container .row .btn-primary {
+  height: 55px;
+  line-height: 40px;
+  background-color: #2D2D2D;
+  border: 1px #ffcd05 solid;
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+  margin-top: 20px;
+}
+.box .container .row a:hover {
+  background-color: #ffcd05;
+  color: grey;
+}
+.box .container .row .col-md-6 {
+  text-align: center;
+}
+.box .container .row .call-v {
+  display: none;
+}
+.box .container .row .call-v img {
+  width: 100%;
+  margin-top: 60px;
+}
+.container .two {
+  margin-top: 200px;
+}
+.container .two .col-xs-12 img {
+  width: 100%;
+  opacity: 0;
+}
+.container .two .col-xs-12 h4 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  opacity: 0;
+}
+.container .three {
+  margin-top: 200px;
+  position: relative;
+}
+.container .three .three1-v {
+  left: -780px;
+}
+.container .three .three2-v {
+  right: -780px;
+}
+.container .three img {
+  width: 100%;
+  padding: 20px 0px;
+}
+.container .four {
+  text-align: center;
+}
+.container .four .bottom .ziti {
+  font-size: 40px;
+  color: gainsboro;
+  margin-top: 100px;
+  text-align: center;
+  display: none;
+}
+.container .four .get {
+  display: inline-block;
+  border: 1px solid #ffcd05;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 36px;
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+  margin-top: 80px;
+  text-decoration: none;
+  color: white;
+}
+.container .four .get:hover {
+  background-color: #ffcd05;
+}
+.container .five {
+  text-align: center;
+  margin-top: 100px;
+}
+.container .five .tupio ul {
+  display: inline-block;
+  padding: 0;
+}
+.container .five .tupio ul li {
+  float: left;
+  list-style: none;
+}
+.container .five .tupio ul li i {
+  color: #888;
+  margin: 0 10px;
+}
+@media (min-width: 768px) {
+  .container .row .jumbotron {
+    background-color: #2D2D2D;
+    text-align: center;
+    margin-top: 200px;
+  }
+}
+/*# sourceMappingURL=./mian.css.map */
